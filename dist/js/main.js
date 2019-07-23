@@ -1,1 +1,1 @@
-console.log("this is main-one"),console.log("this is main-two");
+console.log("this is one"),console.log("this is two");

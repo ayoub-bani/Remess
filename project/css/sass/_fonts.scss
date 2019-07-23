@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('../fonts/Present-Normal.woff');
+}
+
+.myfonts {
+  font-family: 'MyWebFont', Fallback, sans-serif;
+  font-size: 35px;
+}
