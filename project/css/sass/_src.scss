@@ -37,7 +37,6 @@
 
 // Le Remess en chifres section
 #remess-chifres {
-    height: 55rem;
     margin-block-start: 7.5rem;
 
     h2 {
@@ -67,5 +66,30 @@
         font-weight: 300;
         font-size: 0.875rem;
         line-height: 1.5625rem;
+    }
+}
+
+// remess actualites
+#remess-actualites {
+    margin-block-start: 5.5rem;
+
+    h2 {
+        font-size: 2.625rem;
+        line-height: 2.0625rem;
+        margin-bottom: 5rem;
+    }
+
+    .card {
+        .card-title {
+            font-family: 'Lora', serif;
+            font-size: 1.25rem;
+        }
+
+        .card-text {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 0.875rem;
+            line-height: 1.5625rem;
+        }
     }
 }
