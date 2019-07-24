@@ -1,1 +1,36 @@
-// hero section 
+// apropos section 
+#apropos {
+    h1 {
+        margin-block-start: 4.8rem;
+        font-family: 'Lora', serif;
+        font-size: 48px;
+    }
+
+    .p-text-head {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+
+    .p-text-second {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 0.875rem;
+        line-height: 1.5625rem;
+    }
+
+    .btn {
+        margin-top: 2.8125rem;
+    }
+
+    .image-remess-local {
+        background-image: url('../img/a-propos.jpg');
+        background-size: cover;
+        height: 100%;
+        width: 38.5rem;
+    }
+
+    .margin-left-section {
+        margin-left: -2rem;
+        width: 90%;
+    }
+}
