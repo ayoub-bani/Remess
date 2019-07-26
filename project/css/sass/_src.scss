@@ -142,3 +142,31 @@
         line-height: 3.125rem;
     }
 }
+
+#footer {
+    padding-block-end: 2rem;
+    padding-block-start: 6rem;
+
+    h4 {
+        font-family: 'Lora', serif;
+        font-weight: 600;
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        color: #ffffffa3;
+        line-height: 25px;
+    }
+
+    a {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 25px;
+        color: #ffffffa3;
+    }
+}
