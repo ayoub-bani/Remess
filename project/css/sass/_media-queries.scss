@@ -237,3 +237,13 @@
     }
 
 }
+
+// Large Laptop devices (Laptop, 1026px to 1441px)
+@media (min-width: 1026px) and (max-width: 1441px) {
+    #apropos {
+        .image-remess-local {
+            height: 100%;
+            width: 44.0625rem;
+        }
+    }
+}
