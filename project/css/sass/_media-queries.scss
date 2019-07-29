@@ -160,7 +160,7 @@
     }
 }
 
-// Large devices (Tablet, less than 769px)
+// Tablet devices (Tablet, less than 769px)
 @media (min-width: 378px) and (max-width: 769px) {
     #apropos {
 
@@ -211,5 +211,29 @@
     }
 }
 
-// Extra large devices (large desktops)
-// No media query since the extra-large breakpoint has no upper bound on its width
+// Large devices (Laptop, 770ox to 1025px)
+@media (min-width: 770px) and (max-width: 1025px) {
+    #apropos {
+        .image-remess-local {
+            height: 100%;
+            width: 31.0625rem;
+        }
+
+        h1 {
+            width: 101%;
+            font-size: 1.5rem;
+        }
+    }
+
+    #remess-actualites {
+
+        .responsive-width {
+            width: 16rem !important;
+        }
+
+        .card {
+            margin-bottom: 2rem;
+        }
+    }
+
+}
