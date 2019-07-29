@@ -108,8 +108,57 @@
 
 }
 
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {}
+// Medium devices (Large phones, from 377 to 426px)
+@media (min-width: 377px) and (max-width: 426px) {
+    #apropos {
+
+        h1 {
+            width: 101%;
+            font-size: 1.5rem;
+        }
+
+        .margin-left-section {
+            margin-left: 0rem;
+            width: 100%;
+        }
+    }
+
+    #remess-actualites {
+
+        .responsive-width {
+            width: 20rem !important;
+        }
+
+        .card {
+            margin-bottom: 2rem;
+        }
+    }
+
+    #subscription {
+        h3 {
+            width: 70%;
+            line-height: 1.5rem;
+            font-size: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn {
+            margin-top: 1rem;
+        }
+    }
+
+    #footer {
+        h4 {
+            font-size: 1.25rem;
+        }
+
+        p {
+            font-size: 0.7rem;
+            line-height: 1rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {}
