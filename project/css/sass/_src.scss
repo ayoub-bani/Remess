@@ -1,3 +1,8 @@
+// body 
+body {
+    margin-block-start: 85px;
+}
+
 // apropos section 
 #apropos {
     h1 {
@@ -169,4 +174,22 @@
         line-height: 1.5625rem;
         color: #ffffffa3;
     }
+}
+
+// above equipe section
+.header-img {
+    height: 33rem;
+    width: 79rem;
+}
+
+// equipe section
+#equipe {
+    .snip1529 img {
+        height: 18rem;
+        max-width: 100%;
+        vertical-align: top;
+        position: relative;
+        opacity: 0.75;
+    }
+
 }
