@@ -182,8 +182,18 @@ body {
     width: 79rem;
 }
 
+// h1 above equipe cards
+h1 {
+    margin-top: 5.5rem !important;
+    font-size: 2.625rem;
+    line-height: 2.0625rem;
+    margin-bottom: 5rem;
+}
+
 // equipe section
 #equipe {
+    margin-block-end: 4rem;
+
     .snip1529 img {
         height: 18rem;
         max-width: 100%;
@@ -191,5 +201,6 @@ body {
         position: relative;
         opacity: 0.75;
     }
+
 
 }
