@@ -9,24 +9,27 @@ h1 {
 
 // box equipe 
 .box-equipe {
+    .equipe-avatar {
+        position: absolute;
 
-    img {
-        border-radius: 50%;
-        height: 7rem;
+        img {
+            border-radius: 50%;
+            height: 7rem;
+        }
     }
 
     .info-equipe {
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-        width: 63%;
-        font-size: 14px;
-        line-height: 20px;
-        color: #737373;
-        text-align: left;
-        box-sizing: border-box;
-        padding-left: 10px;
-        vertical-align: middle;
+        position: relative;
+        top: 0px;
+        right: 0px;
+        left: 110px;
+        width: 65%;
+
+        .equipe-name {
+            font-size: 21px;
+            padding-bottom: 10px;
+        }
+
     }
 
 }
