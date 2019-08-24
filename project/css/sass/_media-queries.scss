@@ -244,11 +244,23 @@
 // Notre equipe Media queries
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    .info-equipe {
-        width: 75% !important;
+    .box-equipe {
 
-        .equipe-role {
-            margin-right: 2px;
+        .info-equipe {
+            width: 75% !important;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 1000px) {
+    .box-equipe {
+        .info-equipe {
+            width: 50% !important;
+
+            .equipe-email {
+                width: 50%;
+            }
         }
     }
 }
