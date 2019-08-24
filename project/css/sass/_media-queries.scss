@@ -240,3 +240,15 @@
 
 // Large Laptop devices (Laptop, 1026px to 1441px)
 @media (min-width: 1026px) and (max-width: 1441px) {}
+
+// Notre equipe Media queries
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .info-equipe {
+        width: 75% !important;
+
+        .equipe-role {
+            margin-right: 2px;
+        }
+    }
+}
