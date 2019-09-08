@@ -7,6 +7,12 @@ h1 {
     margin-bottom: 5rem;
 }
 
+// above equipe section
+.img-header {
+    background: url('../img/a-propos.jpg');
+    // background-size: cover;
+}
+
 // box equipe 
 .box-equipe {
     .equipe-avatar {
@@ -34,15 +40,12 @@ h1 {
 
 }
 
-// above equipe section
-.header-img {
-    height: 15rem;
-    width: 100%;
-}
+
 
 // equipe section
 #equipe {
     margin-block-end: 4rem;
+
 
     .snip1529 img {
         height: 18rem;
